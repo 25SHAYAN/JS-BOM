@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM</title>
+</head>
+<>
+    <script>
+       function loadhomepage(){
+        location.assign("https://be-practical.com/");
+       } 
+    </script>
+    <button type="button" onclick="loadhomepage();">Load Home Page</button>
+
+    <!-- same as assign -->
+    <script>
+        function loadhomepage1(){
+        window.location.href = "https://be-practical.com/";
+        } 
+     </script>
+     <button type="button" onclick="loadhomepage1();">Load Home Page1</button>
+
+     <script>
+        function forcereload(){
+        window.location.reload();
+        } 
+     </script>
+     <button type="button" onclick="forcereload();">Reload Page</button>
+</body>
+</html>
